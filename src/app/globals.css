@@ -1,0 +1,41 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background: #4A4A8A;
+  color: white;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(151, 20, 238, 0.767);
+}
+
+.prompt-card {
+  background: #E0E0E0;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+ 
+  width: 30%;
+  height: 100%;
+  flex-wrap: wrap;
+
+}
+.search{
+  width: 600px;
+}
+.prompts{
+  display: flex;
+  flex-wrap: wrap;
+}
